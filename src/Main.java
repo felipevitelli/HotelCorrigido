@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println("=======================PRESIDENCIAL=========================");
 
-        QuartoPresidencial objQuartoPresidencial = new QuartoPresidencial("King Size", true, true);
+        QuartoPresidencial objQuartoPresidencial = new QuartoPresidencial("King Size", true, true, true);
         objQuartoPresidencial.informacoesQuarto();
         double valorReservaPresidencial = objQuartoPresidencial.calcularValor(15, 2500);
         System.out.println("Valor Total da reserva: "+valorReservaPresidencial);
